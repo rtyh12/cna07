@@ -5,3 +5,4 @@ asg*.aux
 asg*.log
 asg*.out
 data/*_o.txt
+tex/*.pdf
