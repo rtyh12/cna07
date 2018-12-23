@@ -4,17 +4,17 @@
 \documentclass[../document.tex]{subfiles}
 \begin{document}
 
-\section{}
+\section{Random Failures in Uncorrelated Networks}
 
-$$ fc \approx 1 - \frac{ 1 }{ \frac{ \langle k^2 \rangle }{ \langle k \rangle } - 1 } $$
+$$ f_c \approx 1 - \frac{ 1 }{ \frac{ \langle k^2 \rangle }{ \langle k \rangle } - 1 } $$
 
 \subsection{}
 
 $$ \langle k \rangle = \mu, \langle k^2 \rangle = \mu^2 + \mu $$ \\
 
-$$ fc \approx 1 - \frac{ 1 }{ \frac{ \mu^2 + \mu }{ \mu } - 1 } = 1 - \frac{ 1 }{ \mu + 1 - 1} = 1 - \frac{ 1 }{ \mu } $$
+$$ f_c \approx 1 - \frac{ 1 }{ \frac{ \mu^2 + \mu }{ \mu } - 1 } = 1 - \frac{ 1 }{ \mu + 1 - 1} = 1 - \frac{ 1 }{ \mu } $$ \\
 
-$ fc $ depends on parameter $ \mu $, $ fc \to \infty $ as $ \mu \to \infty $
+$ f_c $ depends on parameter $ \mu $: $ f_c \to \infty $ as $ \mu \to \infty $.
 
 \subsection{}
 
@@ -39,9 +39,9 @@ $ f_c \to 1 $ as $ \lambda \to \infty $.
 \begin{alignat*}{2}
 \langle k \rangle &= \sum\limits^{k_{max}}_{k=k_{min}} k p_k   &&= k_0 \\
 \langle k \rangle &= \sum\limits^{k_{max}}_{k=k_{min}} k^2 p_k &&= k_0^2
-\end{alignat*}
+\end{alignat*} \\
 
-$ f_c \approx 1 - \frac{ 1 }{ \frac{ k^2_0 }{ k_0 } - 1 } = 1 - \frac{ 1 }{ k_0 - 1 } $
+$ f_c \approx 1 - \frac{ 1 }{ \frac{ k^2_0 }{ k_0 } - 1 } = 1 - \frac{ 1 }{ k_0 - 1 } $ \\ \\
 
 See: poisson distribution
 

@@ -1,12 +1,9 @@
 \ProvidesPackage{mystyle}
 
-\usepackage{amsmath}
+\usepackage[fleqn]{amsmath}
 \setlength{\parindent}{0cm}
 
-\usepackage{graphicx}
-\usepackage{subcaption}
-\usepackage{geometry}
-\usepackage{float}
+\usepackage{graphicx, subcaption, geometry, float}
 
 % header
 \usepackage{fancyhdr}
@@ -15,3 +12,6 @@
 \rhead{Maria Kagkeli \\ Maria Regina Lily \\ Mihai Verzan}
 \headheight 10pc
 \voffset -10pc
+
+\renewcommand\thesection{Problem \asgnumber-\@arabic\c@section}
+\renewcommand\thesubsection{\@arabic\c@section.\@arabic\c@subsection}
