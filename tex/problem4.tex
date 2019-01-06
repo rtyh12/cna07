@@ -4,7 +4,26 @@
 \documentclass[../document.tex]{subfiles}
 \begin{document}
 
-\section{European Power Grid}
-text
+\section*{Problem 7-4  European Power Grid}
+For source code, see Problem\_7-4.ipynb
+\subsection*{4.1}
+$ \kappa$ = 3.160386641199283 \\
+According to the Molloy-Reed Criterion, the given graph has a giant component, as $\kappa > 2$. 
+
+\subsection*{4.2}
+
+Absolute size of largest component = 13478\\
+Relative size of largest component = 1.0271553642973734\\
+
+The relative size of the largest component ($\approx$ 1) confirms that the given network has a giant component.
+
+\subsection*{4.3}
+$f_c     = 0.5371198928332218$\\
+\\
+$f_c^{ER} = 0.5993517393065926$\\
+
+About 54\% of the nodes need to be removed to break the network into unconnected components.\\
+This network does not have enhanced robustness since $f_c < f_c^{ER}$.
+
 
 \end{document}
